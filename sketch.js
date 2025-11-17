@@ -98,7 +98,7 @@ function updatePlayer() {
   if (player.y >= baseline - player.radius) {
     player.y = baseline - player.radius;
     player.speedY = 0;
-    player.jumpCount = 1;
+    player.jumpCount = 2;
     }
 }
 
